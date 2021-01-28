@@ -7,3 +7,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.btstack.enable.twsplussho=true \
     ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee
+
+# ParanoidDoze
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.sensor.proximity=true \
+ro.sensor.pickup=xiaomi.sensor.pickup
